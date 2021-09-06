@@ -1,0 +1,31 @@
+1586352129906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Marcos\\AppData\\Local\\Temp\\rust_mozprofile.OHFBobXKVrlR"
+[Parent 15156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15156, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1586352158178	Marionette	INFO	Listening on port 62214
+1586352158628	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586352158680	Marionette	DEBUG	[6442450945] Frame script loaded
+1586352158869	Marionette	DEBUG	[6442450945] Frame script registered
+1586352159817	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1586352167312	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1586352186310	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.endesaclientes.com/login.html?service=%2Foficina%2Fmis-facturas.html
+JavaScript error: https://www.endesaclientes.com/static/iberia/js/lib/jquery1.10.2.min.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.endesaclientes.com/static/iberia/open-power/js/app.js, line 627: TypeError: $(...).slick is not a function
+1586352186392	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+[Parent 15156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x560027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 15156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12132, Chrome_ChildThread] WARNING: pipe error:1586352187619	Marionette	INFO	Stopped listening on port 62214
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
